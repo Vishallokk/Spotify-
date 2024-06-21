@@ -1,0 +1,340 @@
+/* *{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    height: 7%;
+    width: 100%;
+    background-color: black;
+  
+    
+    
+    
+}
+
+#header2{
+    display: flex;
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: aliceblue;
+    
+}
+
+#header3{
+   
+    color: rgb(67, 36, 36);
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: aliceblue;
+    border: 2px solid white;
+    padding-right: 3px;
+   
+
+    
+}
+
+#header3 i{
+    display: flex;
+    align-items: center;
+   font-size: larger;
+   color: green;
+}
+
+#header li{
+    padding: 7px;
+}
+
+
+#main{
+    background-image: url(Backgroun\ image.avif);
+    height: 86%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+#mid1{
+    height: 70%;
+    width: 45%;
+    border: 2px solid white;
+    background-image: url(./for\ mid1.avif);
+    font-size: larger;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 15PX;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  row-gap: 7px;
+   
+}
+
+#mid1:hover{
+    transform: rotatey(360deg);
+    transition: 10s;
+}
+
+
+
+#mid2{
+    height: 70%;
+    width: 45%;
+    border: 2px solid white;
+     background-image: url(for\ mid1.avif); 
+    
+
+#mid2:hover{
+    transform: rotatey(-360deg);
+    transition: 10s;
+}
+
+#bottom{
+   display: flex; 
+   justify-content: center; 
+   align-self:center;   
+}
+
+#bottom input{
+    width: 100%;
+    height: 5px;
+    margin: 2px;
+}
+
+#low{
+    height: 5.5%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;align-items: center;
+    font-size: 33px;
+    gap: 5px;
+    position: relative;
+    margin: 3px;
+}
+
+#sox{
+    position: absolute;
+    font-size: medium;
+    left: 10px;
+    bottom: 10%;
+}
+
+
+#sox img{
+    height: 15px;
+    width: 55px;
+     border-radius: 2rem;
+    opacity: 0;
+}
+
+#songlist{
+    height: 6vh;
+    width: 35vh;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+
+#songlist img{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+  
+   
+}
+
+#text{
+    font-size: 13px;
+}
+ */
+
+
+
+ *{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+#header{
+    height: 7%;
+    width: 100%;
+    background-color: black;
+  
+    
+    
+    
+}
+
+#header2{
+    display: flex;
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: aliceblue;
+    
+}
+
+#header3{
+   
+    color: rgb(67, 36, 36);
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: aliceblue;
+    border: 2px solid white;
+    padding-right: 3px;
+   
+
+    
+}
+
+#header3 i{
+    display: flex;
+    align-items: center;
+   font-size: larger;
+   color: green;
+}
+
+#header li{
+    padding: 7px;
+}
+
+
+#main{
+    background-image: url(Backgroun\ image.avif);
+    height: 86%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+#mid1{
+    height: 70%;
+    width: 45%;
+    border: 2px solid white;
+    background-image: url(for\ mid1.avif);
+    font-size: larger;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bolder;
+   padding: 15PX;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  row-gap: 7px;
+   
+}
+
+#mid1:hover{
+    transform: rotatey(360deg);
+    transition: 10s;
+}
+
+
+
+#mid2{
+    height: 70%;
+    width: 45%;
+    border: 2px solid white;
+    background-image: url(babu.webp);
+    padding: 15px;
+    font-weight: bolder;
+}
+
+#mid2:hover{
+    transform: rotatey(-360deg);
+    transition: 10s;
+}
+
+#bottom{
+   display: flex; 
+   justify-content: center; 
+   align-self:center;   
+}
+
+#bottom input{
+    width: 100%;
+    height: 5px;
+    margin: 2px;
+}
+
+#low{
+    height: 5.5%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;align-items: center;
+    font-size: 33px;
+    gap: 5px;
+    position: relative;
+    margin: 3px;
+}
+
+#sox{
+    position: absolute;
+    font-size: medium;
+    left: 10px;
+    bottom: 10%;
+}
+
+
+#sox img{
+    height: 15px;
+    width: 55px;
+     border-radius: 2rem;
+}
+
+#songlist{
+    height: 6vh;
+    width: 35vh;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+
+#songlist img{
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+  
+   
+}
+
+#text{
+    font-size: 13px;
